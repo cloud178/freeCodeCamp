@@ -38,3 +38,11 @@ body {
 .btn:hover {
     background-image: linear-gradient(#ffcc4c, #f89808);
 }
+
+#back {
+    background-color: white;
+    margin: auto;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
