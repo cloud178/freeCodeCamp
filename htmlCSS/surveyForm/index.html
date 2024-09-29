@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Survey form</title>
+  </head>
+  <body>
+    <h1 id="title">IT courses survey form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform </p>
+    <main>
+      <form id="survey-form">
+        <label id="name-label">Name:<br><input type="text" id="name" required placeholder="Enter your name" /></label>
+        <label id="email-label">Email:<br><input type="email" id="email" required
+                                                 placeholder="Enter your email"/></label>
+        <label id="number-label">Age: <span id="age-optional">(optional)</span>
+          <input type="number" id="number" min="18" max="130" placeholder="Enter your age" /></label>
+        <label>How did you hear about us?
+          <select id="dropdown">
+            <option>Choose the option</option>
+            <option>friends</option>
+            <option>coworkers</option>
+            <option>advertise</option>
+          </select></label>
+        <fieldset>
+          <legend>Would you recommend your courses for other people?</legend>
+          <label for="radio-yes"><input type="radio" id="radio-yes" class="radio" name="yes-no"
+                                        value="true" checked /> Yes</label>
+          <label for="radio-no"><input type="radio" id="radio-no" class="radio" name="yes-no"
+                                       value="false" /> No</label>
+        </fieldset>
+        <section>
+          What do you want to see improving?
+          <label><input type="checkbox" value="front" /> Front-End</label>
+          <label><input type="checkbox" value="back" /> Back-End</label>
+          <label><input type="checkbox" value="devOps" /> Dev-Ops</label>
+        </section>
+        <label for="comments">
+          Any comments or suggestions?
+          <textarea id="comments" name="comments" placeholder="Any comments..." rows="5"></textarea>
+          <input type="submit" id="submit" value="Submit" name="submit" />
+        </label>
+      </form>
+      <p><a href="../../index.html">Back</a></p>
+    </main>
+  </body>
+</html>

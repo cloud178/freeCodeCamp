@@ -1,0 +1,70 @@
+html {
+    background: linear-gradient(135deg, #16166f, #8c8c8c);
+    height: 100%;
+    background-attachment: fixed;
+}
+
+body {
+    color: #dfdfdf;
+    font-family: Calibri, serif;
+}
+
+main {
+    background-color: rgba(19, 19, 83, 0.7);
+    margin: 0 auto;
+    width: 30%;
+    min-width: 300px;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+form {
+    padding: 10px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+select {
+    display: block;
+}
+
+#age-optional {
+    font-size: 0.8rem;
+}
+
+.radio {
+    width: unset;
+}
+
+section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+input[type=checkbox] {
+    width: unset;
+    margin-top: 0.75rem;
+}
+
+#submit {
+    background-color: #5eb33a;
+    border: #5eb33a;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+a {
+    color: #dfdfdf;
+}
